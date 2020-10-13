@@ -1,0 +1,372 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+  body{font-family: 'Jost', sans-serif;}
+  /* ttt
+  font-family: 'Jost', sans-serif;
+font-family: 'Oswald', sans-serif;
+  */
+  /* ===================================== Navbar ==================================== */
+  .logo{
+    margin-left: -19px;
+  }
+  .customNav{
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    width: 100%
+  }
+  #navbarNav{
+    margin-top: 40px;
+  }
+  #navBtn{
+    outline: none;
+    border: 1px solid grey;
+    position: absolute;
+    top: -77px;
+    right: 0;
+  }
+  .customNav li{
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .topIcons{
+    margin-right: 0px !important;
+  }
+  .customNav li a{
+    color: white !important; 
+  }
+  /* ===================================== Slider ==================================== */
+  .slider{
+    width: 100%;
+  }
+  .bannerText{
+    position: absolute;
+    top: 58%;
+    transform: translateY(-58%);
+    left: 7%;
+  }
+  .bannerText h1{
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px #e8be2d;
+    -webkit-text-fill-color: transparent;
+  }
+  .bannerText h2{
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+  }
+  .bannerText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  .bannerBtn{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background: #e9bb20; 
+    background: -moz-linear-gradient(top,  #e9bb20 0%, #ab8731 100%);
+    background: -webkit-linear-gradient(top,  #e9bb20 0%,#ab8731 100%); 
+    background: linear-gradient(to bottom,  #e9bb20 0%,#ab8731 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9bb20', endColorstr='#ab8731',GradientType=0 );
+  }
+  .bannerBtn:hover{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  /* ===================================== Line ==================================== */
+  .line{
+    position: relative;
+    top: -4px;
+  }
+  /* ===================================== Audio ==================================== */
+  .audio h1{
+    color: #1b1721;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  .audio h2{
+    color: #1b1b1b;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .audioImg{
+    width: 372px;
+    height: 380px;
+  }
+  /* ===================================== Video ==================================== */
+  .line2{
+    position: relative;
+    top: 19px;
+  }
+  .video{
+    background-image: url('../images/videoBack.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .videoLine{
+    transform: rotate(90deg);
+    background-color: white;
+    width: 30px;
+    position: relative;
+    top: 13px;
+    margin-bottom: 40px;
+  }
+  .video h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .video h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  .videoImg{
+    width: 100%;
+    height: 80%;
+  }
+  .video h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 5px;
+  }
+  .video h4{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    text-align: left;
+    margin-top: 8px;
+  }
+  /* ===================================== Music ==================================== */
+  .musicImg{
+    border-radius: 20px;
+  }
+  .music p{
+    color: #1b1721;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    font-style: italic;
+  }
+    /* ===================================== footer ==================================== */
+    .line2{
+      position: relative;
+      top: 19px;
+    }
+    .footer{
+      background-image: url('../images/videoBack.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .footerLine{
+      transform: rotate(90deg);
+      background-color: white;
+      width: 30px;
+      position: relative;
+      top: 13px;
+      margin-bottom: 40px;
+    }
+    .footer h2{
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .footer h1{
+      color: white;
+      font-size: 45px;
+      font-weight: 500;
+    }
+    .input-group {
+      margin: 0 auto;
+      width: 38%;
+    }
+    span#basic-addon2 {
+    border-radius: 25px;
+    position: relative;
+    right: 42px;
+    z-index: 999;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background: #e9bb20; 
+    background: -moz-linear-gradient(top,  #e9bb20 0%, #ab8731 100%);
+    background: -webkit-linear-gradient(top,  #e9bb20 0%,#ab8731 100%); 
+    background: linear-gradient(to bottom,  #e9bb20 0%,#ab8731 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9bb20', endColorstr='#ab8731',GradientType=0 );
+    }
+    .form-control{
+      border: none;
+      border-radius: 25px !important;
+      padding: 25px!important;
+    }
+    .form-control:focus{
+    outline: none !important;
+   }
+  .form-control::placeholder{
+    color: #7a7a7a;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .footer2 li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-decoration: underline;
+    margin-right: 55px;
+    margin-top: 16px;
+  }
+  .footer ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .footer h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .socialIcons {
+    color: black;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .socialIcons:hover {
+    color: white;
+    background: -moz-linear-gradient(top,  #e9bb20 0%, #ab8731 100%);
+    background: -webkit-linear-gradient(top,  #e9bb20 0%,#ab8731 100%); 
+    background: linear-gradient(to bottom,  #e9bb20 0%,#ab8731 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9bb20', endColorstr='#ab8731',GradientType=0 );    transition: 0.2s ease-in-out;
+  }
+  
+  .footer-ul>li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .footer p{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  /* ===================================== Media Quries ==================================== */
+  @media(max-width:1500px){
+    .customNav li {
+      margin-right: 8px;
+    }
+    .line {
+      position: relative;
+      top: -11px;
+  }
+  }
+  @media(max-width:1199px){
+    .logo {
+      margin-left: 11px;
+    }
+    .customNav li {
+      margin-right: 0px;
+      font-size: 15px;
+    }
+    .bannerText h1 {
+      font-size: 60px;
+    }
+    .bannerText h2 {
+      font-size: 45px;
+    }
+    .bannerText p {
+      width: 91%;
+    }
+    .bannerBtn {
+      margin-top: 15px;
+    }
+    .input-group {
+      width: 56%;
+  }
+    
+  }
+  @media(max-width:991px){
+    .customNav{
+      position: static;
+    }
+    #navbarNav{
+      margin-top: 0px;
+    }
+    .customNav li a{
+      color: black !important; 
+    }
+    .bannerText h1 {
+      font-size: 40px;
+    }
+    .bannerText h2 {
+      font-size: 25px;
+    }
+    .bannerText p {
+      width: 84%;
+    }
+    .bannerBtn {
+      margin-top: 12px;
+    }
+    .musicImg{
+      width: 100%;
+    }
+  }
+  @media(max-width:767px){
+    .bannerText h1 {
+      font-size: 30px;
+    }
+    .bannerText h2 {
+      font-size: 20px;
+    }
+    .bannerText p {
+      width: 63%;
+    }
+    .video h3{
+      margin-top: 0;
+    }
+    .music p {
+      font-size: 25px;
+      line-height: 32px;
+  }
+  .input-group {
+    width: 95%;
+}
+  }
+  @media(max-width:480px){
+    .bannerBtn {
+      margin-top: 8px;
+      padding: 10px;
+    }
+    .audioImg{
+      width: 100%;
+    }
+    .videoImg {
+      height: 70%;
+    }
+    .form-control {
+      padding: 10px !important;
+    }
+    span#basic-addon2 {
+      right: 30px;
+    }
+  }
